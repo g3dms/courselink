@@ -14,3 +14,7 @@ This is a Chrome extension to make HKUST's course-related information more acces
 Clicking the extension icon opens the [HKUST Class Schedule & Quota Page](https://w5.ab.ust.hk/wcq/cgi-bin/) in a new tab. 
 
 Next to each course, a **Review** hyperlink is injected. Upon clicking, the appropriate [USTSPACE](https://ust.space/) review page will be opened in a new tab.
+
+## Demo Video
+https://github.com/user-attachments/assets/81df3e76-6d1d-4c84-9d7d-f44b96f41363
+
