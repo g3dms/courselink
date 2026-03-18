@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "CourseLink",
-    "version": "1.5.0",
+    "version": "2.0.0",
     "description": "A Chrome extension to make HKUST's course-related information more accessible",
 
     "action": {
