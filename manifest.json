@@ -14,7 +14,7 @@
 
     "content_scripts": [
         {
-            "matches": ["https://w5.ab.ust.hk/wcq/cgi-bin/2540/*"],
+            "matches": ["https://w5.ab.ust.hk/wcq/cgi-bin/*"],
             "css": ["main.css"],
             "js": ["main.js"],
             "run_at": "document_end"

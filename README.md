@@ -11,6 +11,6 @@ This is a Chrome extension to make HKUST's course-related information more acces
 **Note:** The .zip package may be deleted, but the extracted folder should remain in the same location. Otherwise, its location should be updated again on *chrome://extensions*.
 
 ## Features
-Clicking the extension icon opens the [HKUST Class Schedule & Quota Page](https://w5.ab.ust.hk/wcq/cgi-bin/2540/) in a new tab. 
+Clicking the extension icon opens the [HKUST Class Schedule & Quota Page](https://w5.ab.ust.hk/wcq/cgi-bin/) in a new tab. 
 
 Next to each course, a **Review** hyperlink is injected. Upon clicking, the appropriate [USTSPACE](https://ust.space/) review page will be opened in a new tab.

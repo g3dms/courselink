@@ -29,5 +29,5 @@ chrome.runtime.onMessage.addListener(
 );
 
 chrome.action.onClicked.addListener(() => {
-    chrome.tabs.create({url: "https://w5.ab.ust.hk/wcq/cgi-bin/2540/"});
+    chrome.tabs.create({url: "https://w5.ab.ust.hk/wcq/cgi-bin/"});
 });
