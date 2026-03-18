@@ -64,7 +64,7 @@ function init() {
         
         if (!subjectDiv.querySelector('.rating')) {
             var linkContainer = document.createElement("span");
-            linkContainer.innerHTML = " <a class='rating lower-bar' target='_blank' href=" + url + ">(Link to USTSPACE ↗)</a>";
+            linkContainer.innerHTML = " <a class='rating lower-bar' target='_blank' href=" + url + ">Link to USTSPACE ↗</a>";
             subjectDiv.appendChild(linkContainer);
         }
 
