@@ -1,5 +1,4 @@
 function getCoursePage(course) {
-<<<<<<< HEAD
     showLoadingIndicator(course.code);
     
     chrome.runtime.sendMessage(course, function(response) {
