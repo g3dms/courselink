@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "CourseLink",
+    "version": "1.5.0",
+    "description": "A Chrome extension to make HKUST's course-related information more accessible",
+
+    "action": {
+        "default_title": "CourseLink"
+    },
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["https://w5.ab.ust.hk/wcq/cgi-bin/2540/*"],
+            "css": ["main.css"],
+            "js": ["main.js"],
+            "run_at": "document_end"
+        }
+    ],
+
+    "permissions": [
+        "scripting"
+    ],
+    
+    
+    "host_permissions": [
+        "https://ust.space/*",
+        "https://w5.ab.ust.hk/*"
+    ]
+}

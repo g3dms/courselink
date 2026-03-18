@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+a.rating, a.rating:active, a.rating:hover, a.rating:visited {
+    position: relative;
+    text-decoration: none;
+    color: #388E8E;
+    opacity: 0.8;
+    transition: all 0.15s ease-in-out 0s;
+}
+
+a.rating:hover {
+    color: #5E2D79;
+    opacity: 1;
+}
+
+a.lower-bar:after {
+    content: "";
+    left: 0;
+    bottom: -0.20em;
+    height: 2px;
+    width: 100%;
+    background: #5E2D79;
+    opacity: 0.9;
+    position: absolute;
+    transform: scaleX(0);
+    transition: all 0.15s ease-in-out 0s;
+}
+
+a.lower-bar:hover:after {
+    transform: scaleX(1);
+}
