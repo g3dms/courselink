@@ -1,5 +1,5 @@
 # CourseLink
-This is a Chrome extension to make HKUST's course-related information more accessible.
+This is a Chrome extension to make HKUST's course-related information more accessible. (Originally made in 2017, updated for 2026)
 
 ## Getting Started
 1.  Download the [latest .zip release](https://github.com/g3dms/courselink/releases).
